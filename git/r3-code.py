@@ -1,6 +1,6 @@
 from game_round import game
 try:
-    size = int(input("Enter the size of the Box u want : ")) 
+    size = int(input("Enter the size of the Box in int : ")) 
     games = game(size)
     games.round()
 except ValueError:
